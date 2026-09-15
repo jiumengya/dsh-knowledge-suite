@@ -141,6 +141,9 @@ dsh-knowledge-suite\
 ├─ README.md                       # this file (English)
 ├─ README.zh.md                    # Chinese translation
 ├─ README.i18n.yaml                # bilingual-pair hash record
+├─ docs\
+│  ├─ knowledge-plugin-doc.html    # technical document (three diagrams + strip comparison)
+│  └─ _shared\js\mermaid.min.js    # vendored Mermaid, used by the document's two diagrams
 ├─ pkg\                            # the six plugin packages (byte-level runtime copies, 79 files / 225 KB)
 │  ├─ dsh-knowledge\               (15 files)
 │  ├─ dsh-knowledge-store\         (19)
@@ -169,6 +172,4 @@ dsh-knowledge-suite\
 
 ## Related
 
-- Technical document (capability map / the three semantic traps in detail / before-and-after strip comparison):
-  `D:\项目\deepseek-harness\.workbuddy\knowledge-plugin-doc\knowledge-plugin-doc.html`
-- Plugin library master index: `D:\项目\DeepSeek Harness plugings\README.md`
+- Technical document (capability map / the three semantic traps in detail / before-and-after strip comparison): [docs/knowledge-plugin-doc.html](docs/knowledge-plugin-doc.html)

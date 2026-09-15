@@ -141,6 +141,9 @@ dsh-knowledge-suite\
 ├─ README.md                       # 本文（英文）
 ├─ README.zh.md                    # 中文说明
 ├─ README.i18n.yaml                # 双语配对一致性记录
+├─ docs\
+│  ├─ knowledge-plugin-doc.html    # 技术文档（三张图 + 摘除前后对比）
+│  └─ _shared\js\mermaid.min.js    # 内置 Mermaid，供文档中两张图使用
 ├─ pkg\                            # 六个插件包（运行时字节级复制，79 文件 / 225 KB）
 │  ├─ dsh-knowledge\               (15 文件)
 │  ├─ dsh-knowledge-store\         (19)
@@ -169,6 +172,4 @@ dsh-knowledge-suite\
 
 ## 相关
 
-- 技术文档（能力分布图 / 三条语义陷阱详解 / 摘除前后对比）：
-  `D:\项目\deepseek-harness\.workbuddy\knowledge-plugin-doc\knowledge-plugin-doc.html`
-- 插件库总索引：`D:\项目\DeepSeek Harness plugings\README.md`
+- 技术文档（能力分布图 / 三条语义陷阱详解 / 摘除前后对比）：[docs/knowledge-plugin-doc.html](docs/knowledge-plugin-doc.html)
